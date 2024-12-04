@@ -1,5 +1,5 @@
 import { Request, Response } from "express";
-import { stripe } from "../stripe";
+import { keys } from "../keys";
 import Stripe from "stripe";
 
 export const getSubscription = async (req: Request, res: Response) => {
